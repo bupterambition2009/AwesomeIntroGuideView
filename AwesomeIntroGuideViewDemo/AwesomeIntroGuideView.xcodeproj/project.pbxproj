@@ -151,8 +151,6 @@
 				C462A8301DC2201800306DE5 /* Sources */,
 				C462A8311DC2201800306DE5 /* Frameworks */,
 				C462A8321DC2201800306DE5 /* Resources */,
-				BFF2D08458C2464A2D32531D /* [CP] Embed Pods Frameworks */,
-				8906B4DF4090D2EEF157F301 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +190,7 @@
 				TargetAttributes = {
 					C462A8331DC2201800306DE5 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2V3C4RK8AF;
 						ProvisioningStyle = Automatic;
 					};
 					C462A84C1DC2201800306DE5 = {
@@ -206,6 +205,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -241,36 +241,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8906B4DF4090D2EEF157F301 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwesomeIntroGuideView/Pods-AwesomeIntroGuideView-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BFF2D08458C2464A2D32531D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwesomeIntroGuideView/Pods-AwesomeIntroGuideView-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		EFD9F709DA8D7E0C39E43666 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,9 +404,10 @@
 			baseConfigurationReference = 945B17CECE6E765B3E30C5EB /* Pods-AwesomeIntroGuideView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2V3C4RK8AF;
 				INFOPLIST_FILE = AwesomeIntroGuideView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Bupt.AwesomeIntroGuideView;
+				PRODUCT_BUNDLE_IDENTIFIER = Douyin.tsla.com.clipwall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -446,9 +417,10 @@
 			baseConfigurationReference = 89749DE4BAF975AE28AC6AA0 /* Pods-AwesomeIntroGuideView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2V3C4RK8AF;
 				INFOPLIST_FILE = AwesomeIntroGuideView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Bupt.AwesomeIntroGuideView;
+				PRODUCT_BUNDLE_IDENTIFIER = Douyin.tsla.com.clipwall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
